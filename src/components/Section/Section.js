@@ -44,15 +44,10 @@ export default function Section ({title, id, items}) {
                         return (
                             <div className="section__slider">
                                 <div className="section__slider-content">
-                                    <div className="blur">
-                                        <div className="section__slider-content-img">
-                                            <img src={`https://www.themoviedb.org/t/p/w220_and_h330_face/${item.poster_path}`} />
-                                        </div>
-                                        <p>{item.title}</p>
+                                    <div className="section__slider-content-img">
+                                        <img src={`https://www.themoviedb.org/t/p/w220_and_h330_face/${item.poster_path}`} />
                                     </div>
-                                    <div className="section__slider-content-btn">
-                                        <button>Play</button>
-                                    </div>
+                                    <p>{item.title}</p>
                                 </div>
                             </div>
                         )
