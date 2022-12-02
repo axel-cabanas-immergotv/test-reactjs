@@ -5,9 +5,18 @@
 }
 .container {
     width: 100%;
-    max-width: 1400px;
+    max-width: 1360px;
     padding: 0 80px;
     margin: 0 auto;
 }
+.p-t {
+    padding-top: 20px;
+}
+.p-b {
+    padding-bottom: 20px;
+}
 
+@import "./parciales/header";
+@import "./parciales/main";
 @import "./parciales/section";
+@import "./parciales/media-queries";

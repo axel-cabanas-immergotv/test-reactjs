@@ -1,7 +1,7 @@
 export default function Header () {
     return (
-        <div>
-            <div className="container">
+        <div className='header p-t p-b'>
+            <div className="header__content container">
                 <img src="./assets/logo-tmac.png"/>
             </div>
         </div>
