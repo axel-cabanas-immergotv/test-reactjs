@@ -1,0 +1,25 @@
+.section {
+    margin: 0 auto;
+    &__slider {
+    
+        &-content {
+            padding: 15px;
+            text-align: center;
+    
+            &-img {
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+
+            p {
+                padding-top: 10px;
+            }
+        }
+    }
+}
+
+.slick-prev:before, .slick-next:before {
+    color: #000 !important;
+}
