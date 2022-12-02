@@ -1,14 +1,11 @@
 .section {
     margin: 0 auto;
     width: 90%;
-    padding-bottom: 80px;
+    padding-bottom: 50px;
 
     &__slider {
     
         &-content {
-            padding: 15px;
-            text-align: center;
-            width: 200px;
             margin: 0 auto;
             transition: 0.4s ease;
             cursor: pointer;
@@ -31,9 +28,9 @@
     }
 }
 
-// .slick-slide {
-//     margin: 0 27px;
-// }
+.slick-slide {
+    padding: 0 5px;
+}
 
 // /* the parent */
 // .slick-list {
