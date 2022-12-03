@@ -1,3 +1,29 @@
+.section__options {
+    display: flex;
+    align-items: center;
+    padding-bottom: 25px;
+
+    h1 {
+        margin-right: 20px;
+    }
+    button {
+        margin-right: 10px;
+        border: 1px solid #000;
+        background: none;
+        cursor: pointer;
+        font-size: 18px;
+        padding: 5px;
+        width: 70px;
+        transition: 0.4s ease;
+        &:last-child {
+            margin-right: 0;
+        }
+        &:hover {
+            box-shadow: inset 0 -3px 1px #000;
+            text-shadow: 0 0 1px #000;
+        }
+    }
+}
 .section {
     margin: 0 auto;
     width: 90%;

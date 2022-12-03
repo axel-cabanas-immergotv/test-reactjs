@@ -39,9 +39,12 @@ export default function Section ({title, id, items}) {
 
     return (
         <div >
-            <h1 className='p-b'>{title}</h1>
-            <div>
-                
+            <div className='section__options'>
+                <h1>{title}</h1>
+                <div className='section__options-btn'>
+                    <button>Movie</button>
+                    <button>TV</button>
+                </div>
             </div>
             <div className="section">
                 <Slider {...settings}>
