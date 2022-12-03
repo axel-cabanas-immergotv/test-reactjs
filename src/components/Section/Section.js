@@ -1,6 +1,8 @@
 import Slider from "react-slick";
+import { useNavigate } from "react-router-dom";
 
 export default function Section ({title, id, items}) {
+    const navigate = useNavigate()
     const settings = {
         infinite: true,
         speed: 500,
@@ -41,8 +43,9 @@ export default function Section ({title, id, items}) {
             <div className="section">
                 <Slider {...settings}>
                     {items.map(item => {
+                        console.log(item.id)
                         return (
-                            <div className="section__slider">
+                            <div onClick={() => navigate(`/movie/${item.id}`)} id={item.id} className="section__slider">
                                 <div className="section__slider-content">
                                     <div className="section__slider-content-img">
                                         <img src={`https://www.themoviedb.org/t/p/w220_and_h330_face/${item.poster_path}`} />

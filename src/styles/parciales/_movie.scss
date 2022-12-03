@@ -1,0 +1,54 @@
+.movie__content {
+    
+    &-poster {
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        .bg {
+            display: flex;
+            padding: 40px;
+            background-image: linear-gradient(to right, rgba(31.5, 31.5, 31.5, 1) calc((50vw - 170px) - 340px), rgba(31.5, 31.5, 31.5, 0.84) 30%, rgba(31.5, 31.5, 31.5, 0.84) 100%);
+        }
+        &-img {
+            padding-right: 60px;
+        }
+
+        &-desc {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            color: #fff;
+
+            h1 span {
+                opacity: 0.8;
+                font-weight: 400;
+            }
+            
+            .description {
+                padding-top: 30px;
+
+                h2 {
+                    font-style: italic;
+                    font-size: 18px;
+                    font-weight: 400;
+                    opacity: 0.7;
+                }
+                &-title {
+                    font-size: 28px;
+                    font-weight: 600;
+                    padding: 15px 0;
+                }
+                &-overview {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
+.genres {
+    padding-top: 5px;
+    a {
+        color: #fff;
+        padding-right: 10px;
+    }
+}
