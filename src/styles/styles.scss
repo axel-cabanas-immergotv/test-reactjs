@@ -22,6 +22,9 @@ a {
 .p-b {
     padding-bottom: 20px;
 }
+.d-flex {
+    display: flex;
+}
 
 @import "./parciales/header";
 @import "./parciales/main";

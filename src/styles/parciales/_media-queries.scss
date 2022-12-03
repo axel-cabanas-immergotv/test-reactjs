@@ -9,11 +9,16 @@
         padding: 0 20px;
     }
 }
+@media (max-width: 770px){
+    .movie__content-poster-img {
+        padding-right: 30px;
+    }
+}
 
-@media (max-width: 800px){
+@media (max-width: 625px){
     .movie__content-poster {
         background-position: center;
-        .bg {
+        .bg .container {
             flex-direction: column;
         }
         &-img {
@@ -23,5 +28,13 @@
         &-desc {
             padding-top: 30px;
         }
+    }
+}
+
+@media (max-width: 625px) {
+    .movie__content-poster-img-card {
+        width: 220px;
+        height: auto;
+        margin: 0 auto;
     }
 }

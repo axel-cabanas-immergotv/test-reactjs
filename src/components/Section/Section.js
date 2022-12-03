@@ -40,6 +40,9 @@ export default function Section ({title, id, items}) {
     return (
         <div >
             <h1 className='p-b'>{title}</h1>
+            <div>
+                
+            </div>
             <div className="section">
                 <Slider {...settings}>
                     {items.map(item => {

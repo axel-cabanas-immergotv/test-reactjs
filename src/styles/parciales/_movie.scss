@@ -5,14 +5,20 @@
         background-repeat: no-repeat;
 
         .bg {
-            display: flex;
-            padding: 40px;
+            padding-top: 40px;
+            padding-bottom: 40px;
             background-image: linear-gradient(to right, rgba(31.5, 31.5, 31.5, 1) calc((50vw - 170px) - 340px), rgba(31.5, 31.5, 31.5, 0.84) 30%, rgba(31.5, 31.5, 31.5, 0.84) 100%);
         }
         &-img {
             padding-right: 60px;
-            img {
-                border-radius: 10px;
+            &-card {
+                width: 300px;
+                height: auto;
+                img {
+                    border-radius: 10px;
+                    width: 100%;
+                    height: auto;
+                }
             }
         }
 
