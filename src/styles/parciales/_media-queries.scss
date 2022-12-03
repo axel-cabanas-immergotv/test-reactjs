@@ -9,3 +9,19 @@
         padding: 0 20px;
     }
 }
+
+@media (max-width: 800px){
+    .movie__content-poster {
+        background-position: center;
+        .bg {
+            flex-direction: column;
+        }
+        &-img {
+            text-align: center;
+            padding-right: 0;
+        }
+        &-desc {
+            padding-top: 30px;
+        }
+    }
+}
