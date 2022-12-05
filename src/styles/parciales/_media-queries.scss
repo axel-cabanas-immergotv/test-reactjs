@@ -35,20 +35,3 @@
         }
     }
 }
-
-@media (max-width: 350px) {
-    .section__options {
-        &-btn {
-            display: flex;
-            flex-direction: column;
-
-            button {
-                margin-right: 0;
-                margin-bottom: 10px;
-                &:last-child {
-                    margin-bottom: 0;
-                }
-            }
-        }
-    }
-}
